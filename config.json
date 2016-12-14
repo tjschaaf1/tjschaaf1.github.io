@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "TJ Schaaf"
+  },
+  "text": {
+    "more": "This graph shows the 13 conspirators in the final weeks of preparation. The original five conspirators are Robert Catesby, Thomas Percy, Thomas Wintour, Guy Fawkes, and John Wright. Near the end of the plotting, these men formed a high density concentration because they had been threw so much planning and knew each other so well. If the original five plotters wanted to nearly eliminate the likelihood of their plans being revealed, they should have not brought in the new conspirators. As more people are added, the density decreases and the network becomes weaker. The size of the nodes indicates the degree centrality of that individual node. We see that Robert Catesby has the highest degree centrality, which makes sense considering the plot was his idea and he gathered the men necessary. Of all the men, Tresham, Digby, and Bates have the smallest degree centrality. Digby ended up being very helpful to the group and ended up providing money and attempting to foster rebellion in the English countryside. Thomas Bates was Catesby’s servant and was very loyal to him , making it highly unlikely that he would ever reveal the plan. This leaves Tresham, who in addition to be only lightly connected to the group, happened to be Baron Monteagle’s brother-in-law. What most likely happened is that Tresham realized the explosion would kill Monteagle, and he valued the life of the Baron over the plot. Figure 1 above has a density measure of 0.532, while a clique such as the original five has a density of 1. Small-scale networks, such as this, benefit from a high density rating, which means that almost every actor knows what the others are up to, and it reduces the straying one actor can do from the group. ",
+    "intro": "Graph of the original 13 Conspirators",
+    "title": "13 Conspirators"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
